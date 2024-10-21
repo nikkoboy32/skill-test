@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-End Developer Test Task</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+    <div class="popup-overlay"></div>
+    <div class="offer-container">
+        <button class="close-btn">&times;</button>
+        <h2>LIMITED TIME OFFER!</h2>
+        <p>Save 82% On Private Internet Access. Offer Expires In:</p>
+
+        <div class="countdown">
+            <div class="time-block">
+                <small>Hours</small>
+                <span id="hours-tens">0</span><span id="hours-ones">0</span>
+            </div>
+            <div class="time-block">
+                <small>Minutes</small>
+                <span id="minutes-tens">0</span><span id="minutes-ones">0</span>
+            </div>
+            <div class="time-block">
+                <small>Seconds</small>
+                <span id="seconds-tens">0</span><span id="seconds-ones">0</span>
+            </div>
+        </div>
+
+        <div class="rating">
+            <img src="./images/icons/stars.png" alt="star icons">
+            <span><q>4.8</q> out of 5</span>
+        </div>
+
+        <button class="discount-btn">82% DISCOUNT ON VPN</button>
+    </div>
+    <div class="container">
+        <div class="wrapper">
+            <h1>Compare Our Top 3 VPNs</h1>
+
+
+            <nav>
+                <ul class="navbar">
+                    <li class="active" data-target="0"><img src="./images/icons/express-icon.png" alt="ExpressVPN"></li>
+                    <li data-target="1"><img src="./images/icons/cyberghost-icon.png" alt="CyberGhost"></li>
+                    <li data-target="2"><img src="./images/icons/nord-icon.png" alt="NordVPN"></li>
+                </ul>
+            </nav>
+
+            <div class="links_container">
+
+                <section class="active">
+                    <div class="section_content">
+                        <h2>ExpressVPN</h2>
+                        <figure class="vpn-logo"><img src="./images/expressvpn-logo.png" alt="express vpn logo">
+                        </figure>
+                        <p>ExpressVPN, which is currently offering a <q>30-day free trial</q>, is the ultimate choice
+                            for high-speed browsing. With its
+                            military-grade encryption, you can rest assured that your internet activity will always
+                            remain private.</p>
+                        <span>Over 7000 people checked out ExpressVPN in the last month</span>
+                    </div>
+
+                    <div class="section_info_con">
+                        <div class="first_info">
+                            <ul>
+                                <li>Money Back Guarantee</li>
+                                <li>Server/Countries</li>
+                                <li>Kill Switch</li>
+                                <li>Devices/license</li>
+                                <li>Mobile</li>
+                            </ul>
+                        </div>
+
+                        <div class="second_info">
+                            <ul>
+                                <li>30 days</li>
+                                <li>3000 Servers in 105 countries</li>
+                                <li>Yes</li>
+                                <li>8</li>
+                                <li>iOS, Android</li>
+                            </ul>
+                        </div>
+                        <div class="show_mobile">
+                            <h2>Best VPN for</h2>
+                            <div class="show_mobile_img_con">
+                                <figure><img src="./images/privacy-icon.png" alt="privacy icon"></figure>
+                                <figure><img src="./images/speed-icon.png" alt="speed icon"></figure>
+                            </div>
+                            <div class="price_con">
+                                <h2>Starting Price</h2>
+                                <h3>$6.67</h3>
+                                <span>per month</span>
+                            </div>
+                        </div>
+
+                        <div class="button_container">
+                            <a href="https://www.expressvpn.com/" target="_blank">Visit Website ></a>
+                            <span>expressvpn.com</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="section_content">
+                        <h2>CyberGhostVPN</h2>
+                        <figure class="vpn-logo"><img src="./images/cyberghost-logo.png" alt="cyberghost logo"></figure>
+                        <p>Thanks to a brilliant interface and lots of handy features, this VPN will
+                            make even the pickiest users happy. For desktop or mobile, Windows,
+                            Mac, or Linux, if you want to securely enjoy private browsing,
+                            CyberGhost is consistently impressive.</p>
+
+                    </div>
+
+                    <div class="section_info_con">
+                        <div class="first_info">
+                            <ul>
+                                <li>Money Back Guarantee</li>
+                                <li>Server/Countries</li>
+                                <li>Kill Switch</li>
+                                <li>Devices/license</li>
+                                <li>Mobile</li>
+                            </ul>
+                        </div>
+                        <div class="second_info">
+                            <ul>
+                                <li>45 days</li>
+                                <li>11690 Servers in 100 countries</li>
+                                <li>Yes</li>
+                                <li>7</li>
+                                <li>iOS, Android</li>
+                            </ul>
+                        </div>
+                        <div class="show_mobile">
+                            <h2>Best VPN for</h2>
+                            <div class="show_mobile_img_con">
+                                <figure><img src="./images/privacy-icon.png" alt="privacy icon"></figure>
+                                <figure><img src="./images/speed-icon.png" alt="speed icon"></figure>
+                            </div>
+                            <div class="price_con">
+                                <h2>Starting Price</h2>
+                                <h3>$6.67</h3>
+                                <span>per month</span>
+                            </div>
+                        </div>
+                        <div class="button_container">
+                            <a href="https://www.cyberghostvpn.com/" target="_blank">Visit Website ></a>
+                            <span>cyberghostvpn.com</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="section_content">
+                        <h2>NordVPN</h2>
+                        <figure class="vpn-logo"><img src="./images/nordvpn-logo.png" alt="nordvpn vpn logo"></figure>
+                        <p>NordVPN offers decent value for money. Get a fast, secure, an affordable VPN with good global
+                            coverage. d</p>
+                    </div>
+
+                    <div class="section_info_con">
+                        <div class="first_info">
+                            <ul>
+                                <li>Money Back Guarantee</li>
+                                <li>Server/Countries</li>
+                                <li>Kill Switch</li>
+                                <li>Devices/license</li>
+                                <li>Mobile</li>
+                            </ul>
+                        </div>
+                        <div class="second_info">
+                            <ul>
+                                <li>30 days</li>
+                                <li>6293 Servers in 111 countries</li>
+                                <li>Yes</li>
+                                <li>10</li>
+                                <li>iOS, Android</li>
+                            </ul>
+                        </div>
+                        <div class="show_mobile">
+                            <h2>Best VPN for</h2>
+                            <div class="show_mobile_img_con">
+                                <figure><img src="./images/privacy-icon.png" alt="privacy icon"></figure>
+                                <figure><img src="./images/speed-icon.png" alt="speed icon"></figure>
+                            </div>
+                            <div class="price_con">
+                                <h2>Starting Price</h2>
+                                <h3>$6.67</h3>
+                                <span>per month</span>
+                            </div>
+                        </div>
+                        <div class="button_container">
+                            <a href="https://nordvpn.com/" target="_blank">Visit Website ></a>
+                            <span>nordvpn.com</span>
+                        </div>
+                    </div>
+                </section>
+
+
+            </div>
+        </div>
+    </div>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

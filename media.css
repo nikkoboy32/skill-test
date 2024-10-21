@@ -1,0 +1,61 @@
+@media screen and (max-width:1300px) {
+    .links_container section .section_content {width: 430px;}
+    .section_info_con {width: 630px;}
+}
+@media screen and (max-width:1200px) {
+   .links_container section .section_content { width: 350px; }
+   .section_info_con {width: 540px;}
+   .section_info_con .first_info { width: 140px; }
+    .section_info_con .second_info { width: 226px; }
+}
+
+@media screen and (max-width:1000px) {
+.section_info_con { width: 400px; }
+.button_container { position: relative; left: -40px; margin: 0 }
+
+}
+@media screen and (max-width:900px) {
+.section_info_con .first_info { width: 100px; }
+.section_info_con .second_info { width: 220px; }
+.section_info_con { width: 330px; }
+}
+
+@media screen and (max-width:800px) {
+.links_container section {justify-content: center; flex-wrap: wrap;}
+.button_container a {margin-top: 20px;}
+.button_container {margin: 0 auto; max-width: 160px;}
+.section_info_con {width: 80%; justify-content: center; padding-left: 100px; margin-top: 20px;}
+}
+
+@media screen and (max-width: 600px) {
+.container h1 {font-size: 27px; text-align: center;}
+nav {display: block;}
+.links_container section .section_content p, .links_container section .section_content span {display: none;}
+.show_mobile {display: block;}
+.links_container section { display: none; }
+.links_container section .vpn-logo{ display: none; }
+.links_container section h2 {text-align: center; font-weight: 500; display: block;}
+
+.links_container section.active { display: flex; }
+
+.navbar { list-style: none; padding: 0; display: flex; align-items: center; justify-content: center; margin-top: 30px}
+
+.navbar li { cursor: pointer;   background-color: #E8E8E8; border-radius: 10px; padding: 10px 40px; transition: background-color 0.3s;}
+.navbar li:nth-child(2) {padding: 5px 40px;}
+.navbar li img { width: 40px; height: auto; }
+.navbar li.active { background-color: #fff; }
+.section_info_con {width: 100%; padding-left: 0;}
+.button_container { max-width: 80%; width: 100%; margin: 0;}
+.section_info_con .second_info { width: 120px; }
+.show_mobile { display: block; width: 100%; margin-top: 20px; }
+.button_container { left: unset; }
+.show_mobile_img_con { display: flex; justify-content: center; column-gap: 50px; margin: 20px 0 50px; }
+.price_con { text-align: center; }
+.price_con h2 { font-weight: 400; }
+.price_con h3 { color: var(--blue); font-size: 60px; font-weight: 400; margin-bottom: 30px; }
+.button_container span { display: none; }
+.button_container a {padding: 15px 10px;}
+.time-block::before, .time-block::after {display: none;}
+.time-block span {font-size: 45px;}
+.close-btn {top:-10px}
+}
