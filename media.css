@@ -16,7 +16,7 @@
 }
 @media screen and (max-width:900px) {
 .section_info_con .first_info { width: 100px; }
-.section_info_con .second_info { width: 220px; }
+.section_info_con .second_info { width: 220px; padding-left: 30px; }
 .section_info_con { width: 330px; }
 }
 
@@ -46,7 +46,7 @@ nav {display: block;}
 .navbar li.active { background-color: #fff; }
 .section_info_con {width: 100%; padding-left: 0;}
 .button_container { max-width: 80%; width: 100%; margin: 0;}
-.section_info_con .second_info { width: 120px; }
+.section_info_con .second_info { width: 150px; }
 .show_mobile { display: block; width: 100%; margin-top: 20px; }
 .button_container { left: unset; }
 .show_mobile_img_con { display: flex; justify-content: center; column-gap: 50px; margin: 20px 0 50px; }
